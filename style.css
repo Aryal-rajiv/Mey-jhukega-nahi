@@ -8,6 +8,35 @@ body{
     perspective: -10px;
 
 }
+.navbar{
+    background-color: black;
+    text-align: end;
+    justify-content: space-between;
+    font-size: 2rem;
+    position: sticky;
+    top: 0%;
+}
+ul{
+    color: whitesmoke;
+}
+a:link {
+    color: beige;
+}
+a:hover{
+    color: red;
+}
+a:active{
+    font-size: 1.5rem;
+    animation: 0.5s;
+}
+/*1st page ko lagi*/
+#Home_page{
+    position: relative;
+    display: flex;
+    height: 90%;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
 header{
     position: relative;
     display: flex;
@@ -46,7 +75,8 @@ header{
 
 
 }
-section{
+/*2nd page ko lagi*/
+#About_Me{
     font-size: 2rem;
     background-color: #333;
     color: beige;
@@ -57,9 +87,53 @@ h3{
     text-align: start;
     margin-left: 2rem;
 }
-.navbar{
+/*3rd page ko lagi */
+#My_projects{
+    position: relative;
+    display: flex;
+    height: 90%;
+    transform-style: preserve-3d;
+    z-index: -1; 
+    background-image: linear-gradient(black, #022E44);
+    display: flex;
+    flex-wrap: wrap;
+}
+.Projects{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2rem 9rem;
+}
+.project{
+     display: inline-block;
+      margin-bottom: 1rem;
+      color:whitesmoke;
+      height:16em;
+      width:18em;
+      background-color: #333333;
+      transition: height 1s,width 2s;
+}
+.project:hover{
+    height: 18em;
+    width: 20em;
+}
+
+/*4th page ko lagi */
+#More_about{
+    position: relative;
+    display: flex;
+    height: 90%;
+    transform-style: preserve-3d;
+    z-index: -1; 
+    background-image: linear-gradient(#333,white);
+}
+.footer{
+    bottom: 0%;
+    height: 2rem;
     background-color: black;
-    text-align: end;
-    font-size: 2rem;
-    color: whitesmoke;
+    font-size: 1rem;
+    color: blanchedalmond;
+    text-align: center;
+    justify-content:last baseline;
 }
