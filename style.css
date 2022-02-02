@@ -3,6 +3,9 @@
     padding: 0%;
     
 }
+html{
+    scroll-behavior: smooth;
+}
 .container{
     height: 100vh;
     overflow-y: auto;
@@ -23,6 +26,8 @@ ul{
 }
 a:link {
     color: beige;
+    text-decoration:none;
+    margin-left: 1rem;
 }
 a:hover{
     color: red;
@@ -112,12 +117,12 @@ h3{
       margin-bottom: 1rem;
       color:whitesmoke;
       height:18em;
-      width:18em;
+      width:17.5em;
       background-color: #333333;
       transition: height 1s,width 2s;
 }
 .project:hover{
-    height: 10em;
+    height: 20em;
     width: 20em;
 }
 
@@ -130,6 +135,10 @@ h3{
     z-index: -1; 
     background-image: linear-gradient(#333,white);
 }
+
+
+
+
 .footer{
     bottom: 0%;
     height: 2rem;
