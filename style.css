@@ -35,7 +35,14 @@ a:hover{
 a:active{
     font-size: 1.5rem;
     animation: 0.5s;
+    color: beige;
 }
+a:visited{
+    color: beige;
+    margin-left: 1rem;
+    text-decoration: none;
+}
+
 /*1st page ko lagi*/
 #Home_page{
     position: relative;
@@ -116,14 +123,14 @@ h3{
      display: inline-block;
       margin-bottom: 1rem;
       color:whitesmoke;
-      height:18em;
-      width:17.5em;
+      height:17.3rem;
+      width: 17rem;
       background-color: #333333;
       transition: height 1s,width 2s;
 }
 .project:hover{
-    height: 20em;
-    width: 20em;
+    height: 18em;
+    width: 18em;
 }
 
 /*4th page ko lagi */
@@ -133,10 +140,32 @@ h3{
     height: 90%;
     transform-style: preserve-3d;
     z-index: -1; 
-    background-image: linear-gradient(#333,white);
+    background-image: linear-gradient(black,#022537);
 }
 
+#More_about h1{
+       color: beige;
+       font-size: 5rem;
+       padding-top: 3rem;
+       text-align: center;
+       padding-bottom: 2rem;
+        
+}
+#More_about h4{
+    margin-left: 0.5rem;
+    font-size: 2rem;
+}
+.Mail_bot{
 
+    color: beige;
+    font-size: 4rem;
+}
+.details{
+    color: beige;
+    margin-top:2rem;
+    margin-left: 4rem;
+    margin-right: 10rem;
+}
 
 
 .footer{
